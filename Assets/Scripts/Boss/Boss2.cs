@@ -18,7 +18,7 @@ public class Boss2 : Boss
     {
         if(IsAttack == true && CurAttackPatton == null)
         {
-            int Ran = 2; //Random.Range(0, 3);
+            int Ran = Random.Range(0, 3);
 
             switch (Ran)
             {
