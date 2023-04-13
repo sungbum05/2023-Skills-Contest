@@ -18,7 +18,7 @@ public class Boss2 : Boss
     {
         if(IsAttack == true && CurAttackPatton == null)
         {
-            int Ran = Random.Range(0, 3);
+            int Ran = Random.Range(0, 2);
 
             switch (Ran)
             {
@@ -27,10 +27,6 @@ public class Boss2 : Boss
                     break;
 
                 case 1:
-                    CurAttackPatton = StartCoroutine(Patton02());
-                    break;
-
-                case 2:
                     CurAttackPatton = StartCoroutine(Patton03());
                     break;
 
